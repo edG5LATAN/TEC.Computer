@@ -1,0 +1,61 @@
+.gaming_contenedor{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0px;
+  width: 100%;
+  height: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1f2937;
+
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+    
+   font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+  }
+}
+
+
+.gaming_secciones{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 800px;
+  width: 80%;
+  height: auto;
+  /* background-color: red; */
+  padding: 5px;
+  margin-bottom: 10px;
+  h2{
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  h3{
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 2rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+  }
+  p{
+    text-align: justify;
+    padding: 0px 10px;
+
+    font-size: 1.125rem;
+  color: #374151;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+  }
+}

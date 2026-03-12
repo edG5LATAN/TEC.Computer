@@ -1,0 +1,250 @@
+.acerca-container {
+  width: 100%;
+  height: auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.acerca_de_sucontainer{
+  width: 80%;
+  margin: 10px 0;
+}
+
+/* Header */
+.acerca-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.acerca-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+}
+
+.acerca-divider {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: #2563eb;
+  margin: 0 auto;
+  border-radius: 9999px;
+}
+
+/* Introducción */
+.acerca-intro {
+  background-color: #eff6ff;
+  border-left: 4px solid #2563eb;
+  padding: 1.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.acerca-intro-text {
+  font-size: 1.125rem;
+  color: #374151;
+  line-height: 1.625;
+  margin-bottom: 1rem;
+}
+
+.acerca-intro-text:last-child {
+  margin-bottom: 0;
+}
+
+.acerca-intro-highlight {
+  font-weight: 500;
+}
+
+.acerca-grid {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.acerca-card {
+  height: max-content;
+}
+
+.acerca-valores-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  height: max-content;
+}
+
+
+
+/* Cards */
+.acerca-card {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.acerca-card-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.acerca-card-text {
+  color: #4b5563;
+  line-height: 1.625;
+}
+
+/* Texto resaltado */
+.acerca-highlight {
+  font-weight: 600;
+  color: #2563eb;
+}
+
+/* Sección de valores */
+.acerca-valores {
+  margin-bottom: 3rem;
+}
+
+.acerca-section-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.acerca-section-subtitle {
+  color: #4b5563;
+  text-align: center;
+  max-width: 42rem;
+  margin: 0 auto 2rem auto;
+  line-height: 1.625;
+}
+
+/* Grid de valores */
+/* .acerca-valores-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+} */
+
+
+/* Cards de valores */
+.acerca-valor-card {
+  background: linear-gradient(to bottom right, #eff6ff, #ffffff);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #dbeafe;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: max-content;
+}
+
+.acerca-valor-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.acerca-valor-emoji {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.acerca-valor-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.acerca-valor-text {
+  color: #4b5563;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* Sección de ayuda */
+.acerca-ayuda {
+  background-color: #f9fafb;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.acerca-ayuda-text {
+  color: #4b5563;
+  font-size: 1.125rem;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+}
+
+.acerca-ayuda-text:last-child {
+  margin-bottom: 0;
+}
+
+/* Call to Action */
+.acerca-cta {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  text-align: center;
+  color: white;
+}
+
+.acerca-cta-text {
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.acerca-cta-bold {
+  font-weight: 700;
+}
+
+.acerca-cta-link {
+  color: white;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.acerca-cta-link:hover {
+  opacity: 0.9;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .acerca_de_sucontainer {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .acerca-valores-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .acerca-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width:500px) {
+  .acerca_de_sucontainer {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .acerca-valores-grid {
+    flex-direction: column;
+  }
+
+  .acerca-grid {
+    flex-direction: column;
+  }
+}
